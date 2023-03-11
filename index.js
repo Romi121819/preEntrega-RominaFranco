@@ -51,6 +51,6 @@ function calculadorCuota(monto, interes, meses) {
 }
 
 alert(
-    "Las opciones disponibles en ${infoBancoSeleccionado.nombre} son: 1. ${cuota12} mensuales a 12 meses - 2. ${cuotas24} mensuales a 24 meses
+    'Las opciones disponibles en ${infoBancoSeleccionado.nombre} son: 1. ${cuota12} mensuales a 12 meses - 2. ${cuotas24} mensuales a 24 meses'
 )
 console.log("seleccioneBanco", infoBancoSeleccionado, importeSolicitado)
